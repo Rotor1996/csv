@@ -18,4 +18,15 @@
 		echo $count."\n";
 			}
 	}
+//其实这个写法可能更优
+/*if($count%3==0 && $count%5==0){
+echo "triplefiver"."\n";
+}
+if($count%5==0){
+echo "triple"."\n";
+}
+if($count%3==0 ){
+echo "fiver"."\n";
+}
+echo "$count"*/
 	
